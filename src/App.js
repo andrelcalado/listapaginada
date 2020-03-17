@@ -3,7 +3,7 @@ import ListagemImoveis from './components/listagemImoveis';
 
 function App() {
   return (
-    <div>
+    <div style={{display:"flex", justifyContent:"center"}}>
       <ListagemImoveis></ListagemImoveis>
     </div>
   );

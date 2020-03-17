@@ -5,6 +5,8 @@ import ShowerIcon from './shower';
 import SuiteIcon from './suite';
 import LocateIcon from './locate';
 import AreaIcon from './area';
+import DetailIcon from './detail';
+import LastUpdateIcon from './lastUpdate';
 
 class ImovelInfoIcons extends Component {
     constructor(props){
@@ -35,6 +37,14 @@ class ImovelInfoIcons extends Component {
         } else if (this.props.icon == "area"){
             return (
                 <AreaIcon/>
+            )
+        } else if (this.props.icon == "detail"){
+            return (
+                <DetailIcon/>
+            )
+        } else if (this.props.icon == "lastUpdate"){
+            return (
+                <LastUpdateIcon/>
             )
         }
     }

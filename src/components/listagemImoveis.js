@@ -19,7 +19,6 @@ class ListagemImoveis extends Component {
     await axios.get(url)
       .then(res => {
         this.setState({ dadosImoveis: res.data.buildings, loading: false });
-        console.log(this.state.dadosImoveis);
       });
   }
 
@@ -33,11 +32,11 @@ class ListagemImoveis extends Component {
         return (
           <div>
             <CardImovel
-                id={imovel.id} name={imovel.name} max_area={imovel.max_area}
-                min_price={imovel.min_price} max_bedrooms={imovel.max_bedrooms}
-                max_suites={imovel.max_suites} max_parking={imovel.max_parking}
-                max_bathrooms={imovel.max_bathrooms}
-                price_per_private_square_meter={imovel.price_per_private_square_meter}
+                id={imovel.id} name={imovel.name} max_area={imovel.max_area} min_area={imovel.min_area} last_update={imovel.updated_at}
+                min_price={imovel.min_price} max_bedrooms={imovel.max_bedrooms} min_bedrooms={imovel.min_bedrooms}
+                max_suites={imovel.max_suites} min_suites={imovel.min_suites} max_parking={imovel.max_parking}
+                min_parking={imovel.min_parking} max_bathrooms={imovel.max_bathrooms} min_bathrooms={imovel.min_bathrooms}
+                price_per_private_square_meter={imovel.price_per_private_square_meter} orulo_url={imovel.orulo_url}
                 updated_at={imovel.updated_at} address={imovel.address} img={imovel.default_image["520x280"]}
             />
           </div>
