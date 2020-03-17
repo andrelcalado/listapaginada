@@ -1,0 +1,132 @@
+/* Montserrat Family */
+
+@font-face {
+    font-family: Montserrat-Regular;
+    src: url(../../fonts/Montserrat-Regular.otf);
+}
+@font-face {
+    font-family: Montserrat-Bold;
+    src: url(../../fonts/Montserrat-Bold.otf);
+}
+@font-face {
+    font-family: Montserrat-Medium;
+    src: url(../../fonts/Montserrat-Medium.otf);
+}
+
+/* Limpeza dos Padrões de Botões */
+button {
+    display: inline-block;
+    border: none;
+    text-decoration: none;
+    cursor: pointer;
+    text-align: center;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+}
+/*----------------------------------------------------------------------*/
+
+/* Botão Favoritar */
+.imgComponent .favorite{
+    height: 45px;
+    width: 45px;
+    background-color: white;
+    margin: 10px;
+    box-shadow: rgba(0, 0, 0, 0.20) 0px 0px 4px 0px;
+    border-radius: 50%;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.imgComponent .favorite:hover{
+    box-shadow: rgba(255, 0, 0, 0.418) 0px 0px 6px 2px;
+    transition: box-shadow 0.2s ease-out;
+}
+.imgComponent .favoriteOn{
+    height: 45px;
+    width: 45px;
+    background-color: #FF0043;
+    margin: 10px;
+    box-shadow: rgba(0, 0, 0, 0.20) 0px 0px 4px 0px;
+    border-radius: 50%;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.imgComponent .favoriteOn:hover{
+    box-shadow: rgba(255, 0, 0, 0.418) 0px 0px 6px 2px;
+    transition: box-shadow 0.2s ease-out;
+}
+
+/*----------------------------------------------------------------------*/
+
+/* Card do Imóvel */
+.cardImovel{
+    background-color: white;
+    height: 280px;
+    width: 95vw;
+    border-radius: 7px;
+    box-shadow: rgba(0, 0, 0, 0.20) 0px 0px 4px 0px;
+    margin: 15px;
+    overflow: hidden;
+    display: flex;
+}
+.cardImovel:hover{
+    box-shadow: rgba(0, 0, 0, 0.20) 0px 0px 13px 0px;
+    transition: box-shadow 0.2s ease;
+}
+/*----------------------------------------------------------------------*/
+
+/* Container de Todas as Informações do Imóvel */
+.imovelInfo{
+    padding: 20px;
+}
+
+.imovelInfo .title{
+    font-family: Montserrat-Bold;
+    font-size: 30px;
+    color: #464646;
+}
+
+.prices{
+    display: flex;
+}
+.prices .mainPrice{
+    margin-right: 0.5vw;
+    font-family: Montserrat-Bold;
+    font-size: 43px;
+    color: black;
+}
+
+.row{
+    display: flex;
+    margin-bottom: 0.4em;
+}
+
+.listInfo .cardInformation{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 1.3vw;
+}
+.row .icon{
+    margin-right: 0.5vw;
+}
+.row .text{
+    font-family: Montserrat-Medium;
+    color: #888888;
+}
+
+
+/*----------------------------------------------------------------------*/
+
+
+/* Estado do Imóvel: Construção/Construido */
+
+/*----------------------------------------------------------------------*/
+
+
+/* Container da Última Atualização e Botão Detalhes */
+
+/*----------------------------------------------------------------------*/
