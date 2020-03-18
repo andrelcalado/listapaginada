@@ -7,7 +7,7 @@ Interface conectada a uma API, coletando informações de imóveis para serem ex
 
 1 - Após a clonagem do projeto, você deve ir até abrir o prompt de comando do Node na pasta ./listapaginada/express-api/ e executar o comando npm install;
 
-2 - Após todas as dependências instaladas, execute o comando npm start e mantenha a janela aberta;
+2 - Na mesma janela do prompt do express, após todas as dependências instaladas, execute o comando npm start e mantenha a janela aberta;
 
 3 - Abra o arquivo ./listapaginada/keys/headers.js e no final da variável, onde tem "COLOCAR_A_KEY_AQUI", você deve substituir pelo token passado pela Órulo para este desenvolvimento. Você salva o arquivo e fecha.
 
