@@ -13,7 +13,7 @@ Interface conectada a uma API, coletando informações de imóveis para serem ex
 
 3 - Abra uma nova janela do prompt na pasta ./listapaginada/ e execute também os mesmos comandos utilizados no segundo item, primeiro o npm install e após conclusão, npm start.
 
-4 - Deve abrir uma página em seu navegador e você pode visualizar o projeto desenvolvimento
+4 - Deve abrir uma página em seu navegador e você pode visualizar o projeto desenvolvido
 
 #######################################################################################
 
