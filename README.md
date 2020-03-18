@@ -5,11 +5,11 @@ Interface conectada a uma API, coletando informações de imóveis para serem ex
 # Como Executar o Projeto
 - Inicialmente é necessário que o Node.js esteja devidamente instalado.
 
-1 - Após a clonagem do projeto, você deve ir até abrir o prompt de comando do Node na pasta ./listapaginada/express-api/ e executar o comando npm install;
+1 - Após a clonagem do projeto, abra o arquivo ./listapaginada/keys/headers.js e no final da variável, onde tem "COLOCAR_A_KEY_AQUI", você deve substituir pelo token passado pela Órulo para este desenvolvimento. Você salva o arquivo e fecha.
 
-2 - Na mesma janela do prompt do express, após todas as dependências instaladas, execute o comando npm start e mantenha a janela aberta;
+2 - Você deve abrir o prompt de comando do Node na pasta ./listapaginada/express-api/ e executar o comando npm install;
 
-3 - Abra o arquivo ./listapaginada/keys/headers.js e no final da variável, onde tem "COLOCAR_A_KEY_AQUI", você deve substituir pelo token passado pela Órulo para este desenvolvimento. Você salva o arquivo e fecha.
+3 - Na mesma janela do prompt do express, após todas as dependências instaladas, execute o comando npm start e mantenha a janela aberta;
 
 3 - Abra uma nova janela do prompt na pasta ./listapaginada/ e execute também os mesmos comandos utilizados no segundo item, primeiro o npm install e após conclusão, npm start.
 
@@ -38,5 +38,7 @@ Interface conectada a uma API, coletando informações de imóveis para serem ex
 9 - Caso houvesse nos dados que nos foram passados todas as fotografias do imóvel, seria implementado um slide, sem a necessidade do usuário entrar na página do imóvel para poder visualizar todas as fotografias;
 
 10 - Melhorar as animações após passar o mouse pelos botões
+
+11 - Após Favoritar, ao contrário de uma janela surgir informando que foi favoritado, iria aparecer um card ao lado direito da interface, dando feedback que foi favoritado
 
 
